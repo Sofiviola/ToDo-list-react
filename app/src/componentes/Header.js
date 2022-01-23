@@ -17,7 +17,7 @@ const Header = ({ mostrarCompletadas, cambiarMostrarCompletadas }) => {
                     className='header__boton'
                     onClick={() => toggleCompletadas()}
                 >
-                    No mostrar completadas
+                    No mostrar tareas completadas
                     <FontAwesomeIcon icon={faEyeSlash} className='header__icon-boton' />
                 </button>
                 :
@@ -25,7 +25,7 @@ const Header = ({ mostrarCompletadas, cambiarMostrarCompletadas }) => {
                     className='header__boton'
                     onClick={() => toggleCompletadas()}
                 >
-                    Mostrar completadas
+                    Mostrar tareas completadas
                     <FontAwesomeIcon icon={faEye} className='header__icon-boton' />
                 </button>
             }

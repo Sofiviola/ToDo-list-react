@@ -54,7 +54,7 @@ const ListaTareas = ({ tareas, cambiarTareas, mostrarCompletadas }) => {
                 }
                 return;
             }) :
-                <div className="lista-tareas__mesanjes">No tiene tareas</div>
+                <div className="lista-tareas__mesanjes">No tiene tareas, ¡agregue una!</div>
             }
         </ul>
     )
