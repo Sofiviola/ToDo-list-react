@@ -184,13 +184,30 @@
     background-color: var(--secundario);
     border: none;
     position: absolute;
-    margin-left: 10em;
-    padding: 5px;
+    margin-left: 7em;
+    padding: 8px;
     color: var(--white);
     cursor: pointer;
     transition: all 200ms ease;
 }
 .formulario-editar-tarea__btn:hover {
     background-color: #006c72;
+}
+
+/* ----------------------- RESPONSIVE ----------------------- */
+
+@media screen and (max-width: 768px) {
+
+     .header__titulo {
+            font-size: 26px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .header__titulo {
+        font-size: 22px;
+    }
+    
 }
 
